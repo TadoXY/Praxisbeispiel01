@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tados - STRATIRA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header class="site-header">
+<a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+
+  <div class="container d-flex justify-content-between">
+    <div class="main-nav">
+      <a href="index.html"><img src="bilder/Symbolmarke.png" alt="Offizielle Logo des Unternehmens Tados" style="width: 40px;height: 39px; filter:invert(88%)"></a>
+    </div>
+
+    <nav class="main-nav">
+      <a href="about-us.html">Über uns</a>
+      <a href="barrierefreiheit.html">Barrierefreiheit</a>
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="urheberrecht.html">Urheberrecht</a>
+    </nav>
+  </div>
+</header>
+
+
+<main id ="main">
+
+  <h1 class="visually-hidden">STRATIRA - Militärisch gestaltete Schachbretter</h1>
+
+  <section class="banner-wrapper">
+  <div class="banner" aria-hidden="true"></div>
+</section>
+
+<section class="products">
+
+ 
+  <div class="product-row">
+    <div class="product-image">
+<!--       <img src="bilder/Produkt_01.png" alt="Produkt 1">
+ -->    
+              <img src="bilder/Produkt_01.png" alt="STRATIRA Standard Edition aus Holz mit militärische gestalteten Schachfiguren">
+
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="product-info">
+      <h2>STRATIRA - Standard Edition</h2>
+      <p>
+        Dieses exklusive militärische Schachset aus edlem Massivholz verbindet klassische Handwerkskunst mit moderner Themenästhetik. 
+        Jede Figur ist präzise aus Holz geschnitzt und stellt eine militärische Einheit dar
+        Das fein gemaserte Holzschachbrett mit kontrastreichen Feldern sorgt für eine warme, elegante Optik und ein authentisches Spielgefühl.
+        Ideal für Liebhaber klassischer Materialien, Strategen und Sammler.
+      </p>
+      <section class="action-wrapper">
+    <div class="action-buttons">
+      <button class="action-btn">Kaufen</button>
+    </div>
+  </section>
+    </div>
+  </div>
+
+  <div class="product-row reverse">
+    <div class="product-image">
+<!--       <img src="bilder/Produkt_02.png" alt="Produkt 2">
+ -->    
+              <img src="bilder/Produkt_02.png" alt="STRATIRA Deluxe Edition aus Glas mit militärische gestalteten Schachfiguren">
+
+  </div>
+
+    <div class="divider-reverse"></div>
+
+    <div class="product-info">
+      <h2>STRATIRA - Deluxe Edition</h2>
+      <p>
+        Die Glas-Edition ist ein modernes Kunstobjekt für anspruchsvolle Designliebhaber. 
+        Gefertigt aus hochwertigem, geschliffenem Glas, stehen sich kristallklare und dunkel getönte militärische Einheiten gegenüber.
+        Das vollständig aus Glas gefertigte Schachbrett reflektiert Licht auf elegante Weise und verleiht dem Spiel eine futuristische, fast schwebende Wirkung. 
+        Jede Figur ist detailreich modelliert und dennoch klar und minimalistisch gehalten.
+      </p>
+      <section class="action-wrapper">
+    <div class="action-buttons">
+      <button class="action-btn">Kaufen</button>
+    </div>
+  </section>
+    </div>
+  </div>
+
+  <div class="product-row">
+    <div class="product-image">
+<!--       <img src="bilder/Produkt_03.png" alt="Produkt 3">
+ -->
+                    <img src="bilder/Produkt_03.png" alt="STRATIRA Limited Edition aus goldfarbenem Metall mit militärisch gestalteten Schachfiguren">
+
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="product-info">
+      <h2>STRATIRA - Limited Edition</h2>
+      <p>
+        Die limitierte Gold-Edition ist das luxuriöse Herzstück der Kollektion. 
+        Sämtliche Figuren sind aus goldfarbigen Metall gefertigt und fein ausgearbeitet. 
+        Das Schachbrett kombiniert goldene Akzente mit dunklen Kontrastfeldern und erzeugt eine majestätische Ausstrahlung.
+        Dieses Set steht für Macht, Strategie und Prestige. 
+        Das perfekte Exemplar für Sammler, Führungspersönlichkeiten oder als außergewöhnliches Geschenk.
+      </p>
+      <section class="action-wrapper">
+    <div class="action-buttons">
+      <button class="action-btn">Kaufen</button>
+    </div>
+  </section>
+    </div>
+  </div>
+
+<p id="status-message" role="alert" ></p>
+
+</section>
+
+<footer class="site-footer">
+  <p>© 2026 Tados - Fiktives Projekt</p>
+</footer>
+
+</body>
+<script>
+  document.querySelectorAll(".action-btn").forEach(button => {
+  button.addEventListener("click", () => {
+    document.getElementById("status-message").textContent =
+      "Der Kauf ist derzeit leider nicht möglich.";
+  });
+});
+</script>
+</html>
